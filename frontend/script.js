@@ -2,7 +2,7 @@ async function loadUsers() {
     const container = document.getElementById("users");
 
     try {
-        const response = await fetch("http://localhost:5001/users");
+        const response = await fetch("http://54.80.2.245:5001/users");
         const data = await response.json();
 
         container.innerHTML = "";
@@ -26,7 +26,7 @@ async function loadProducts() {
     const container = document.getElementById("products");
 
     try {
-        const response = await fetch("http://localhost:5002/products");
+        const response = await fetch("http://54.80.2.245:5002/products");
         const data = await response.json();
 
         container.innerHTML = "";
@@ -51,7 +51,7 @@ async function loadOrders() {
     const container = document.getElementById("orders");
 
     try {
-        const response = await fetch("http://localhost:5003/orders");
+        const response = await fetch("http://54.80.2.245:5003/orders");
         const data = await response.json();
 
         container.innerHTML = "";
