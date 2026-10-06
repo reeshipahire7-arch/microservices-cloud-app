@@ -13,8 +13,7 @@ def users():
     return jsonify(users=[
         {"id": 1, "name": "Reeshi"},
         {"id": 2, "name": "Alex"},
-        {"id": 3, "name": "minal"},
-        {"id": 4, "name": "commatoze"}
+       
     ])
 
 if __name__ == "__main__":
