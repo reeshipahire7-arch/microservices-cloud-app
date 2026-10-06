@@ -12,7 +12,7 @@ def home():
 def users():
     return jsonify(users=[
         {"id": 1, "name": "Reeshi"},
-        {"id": 2, "name": "Alex"},
+        {"id": 2, "name": "Alex"}
        
     ])
 
