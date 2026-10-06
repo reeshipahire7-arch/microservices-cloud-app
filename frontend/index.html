@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microservices Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Microservices Dashboard</h1>
+        <p>Dockerized Microservices Application</p>
+    </header>
+
+    <main>
+
+        <section class="card">
+            <h2>👤 Users</h2>
+            <button onclick="loadUsers()">Load Users</button>
+            <div id="users">Click the button to load users.</div>
+        </section>
+
+        <section class="card">
+            <h2>📦 Products</h2>
+            <button onclick="loadProducts()">Load Products</button>
+            <div id="products">Click the button to load products.</div>
+        </section>
+
+        <section class="card">
+            <h2>🛒 Orders</h2>
+            <button onclick="loadOrders()">Load Orders</button>
+            <div id="orders">Click the button to load orders.</div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Microservices Demo | Docker + Flask</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
